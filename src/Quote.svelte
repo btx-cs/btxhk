@@ -21,7 +21,7 @@
 .c2{
   position: fixed;
   top: 340px;
-  left: -0.5%;
+  left: -.8%;
   width: 100%;
 }
 .c3{
