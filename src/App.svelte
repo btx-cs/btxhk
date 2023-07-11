@@ -2,7 +2,7 @@
 
   // import Login from './Login.svelte';
   import LOGO from './assets/logo.svelte';
-  import LOGOB from './assets/logo-b.svelte';
+  import LOGOB from './assets/logo-g.svelte';
   import LOGOW from './assets/logo-w.svelte';
   import Quote from './Quote.svelte';
   import Back from './Background.svelte';
@@ -61,6 +61,7 @@
   padding: 10px;
   z-index: 9999;
   animation: flashingb 9s infinite;
+  filter: drop-shadow(0 0 1em #ffffff);
 }
 .body {
   opacity: 0.4;
