@@ -3,8 +3,9 @@
 </script>
 
 <main class="box">
+
 <c1><h4><U/>USDT-HKD 即日匯率報價：</h4></c1>
-<c2><h1><h4 class="sell">7.77</h4> <h4 class="buy">7.78</h4></h1></c2>
+<c2><h1><h4 class="sell">7.77</h4> <h4 class="buy">7.78</h4></h1><c2>
 <c3><h4>💵 客戶賣出價 / 客戶買入價 🪙</h4></c3>
 
 </main>
@@ -15,14 +16,16 @@ c1{
   top: 250px;
   left: -2%;
   width: 100%;
+  height: 111em;
   padding: 10px;
   z-index: 9999;
 }
 c2{
   position: fixed;
   top: 340px;
-  left: -1%;
+  left: -2%;
   width: 100%;
+  height: 111em;
   padding: 10px;
   z-index: 9999;
 }
@@ -31,11 +34,13 @@ c3{
   top: 340px;
   left: -2%;
   width: 100%;
+  height: 111em;
   padding: 10px;
   z-index: 9999;
 }
 .box{
   gap:10px;
+  position: fixed;
   /* position: flex; */
 }
 h1{
