@@ -23,7 +23,7 @@ c1{
 c2{
   position: fixed;
   top: 340px;
-  left: -2%;
+  left: -0.5%;
   width: 100%;
 }
 c3{
