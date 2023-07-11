@@ -25,9 +25,6 @@ c2{
   top: 340px;
   left: -2%;
   width: 100%;
-  height: 111em;
-  padding: 10px;
-  z-index: 9999;
 }
 c3{
   position: fixed;
