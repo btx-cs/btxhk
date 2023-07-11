@@ -1,7 +1,7 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500" width="41" height="41">
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500" width="30" height="30">
 	<style>
 		.s0 { fill: none } 
-		.s1 { fill: #009393 } 
+		/* .s1 { fill: #009393 }  */
 	</style>
 	<g id="Layer_x0020_1">
 		<path id="usdt" class="s0" d="m0 0h2500v2500h-2500z"/>

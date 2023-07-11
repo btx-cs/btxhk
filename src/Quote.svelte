@@ -5,8 +5,8 @@
 <main class="box">
 
 <h4 class="c1"><U/>USDT-HKD 即日匯率報價：</h4>
-<h1 class="c2"><h4 class="sell">7.77</h4> <h4 class="buy">7.78</h4></h1>
-<h4 class="c3">💵 客戶賣出價 / 客戶買入價 🪙</h4>
+<h1 class="c2"><h4 class="sell">7.77</h4> / <h4 class="buy">7.78</h4></h1>
+<h4 class="c3">（ 客戶賣出價 ） （ 客戶買入價 ）</h4>
 
 </main>
 
@@ -20,13 +20,13 @@
 }
 .c2{
   position: fixed;
-  top: 200px;
+  top: 160px;
   left: -0.5%;
   width: 100%;
 }
 .c3{
   position: fixed;
-  top: 200px;
+  top: 250px;
   left: -0.5%;
   width: 100%;
 }
