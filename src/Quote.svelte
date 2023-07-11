@@ -13,20 +13,20 @@
 <style>
 .c1{
   position: fixed;
-  top: 160px;
+  top: 140px;
   left: -1%;
   width: 100%;
   padding: 6px;
 }
 .c2{
   position: fixed;
-  top: 230px;
+  top: 200px;
   left: -0.5%;
   width: 100%;
 }
 .c3{
   position: fixed;
-  top: 240px;
+  top: 200px;
   left: -0.5%;
   width: 100%;
 }
@@ -56,7 +56,7 @@ h3{
 h4{
   gap: 0.6em;
   color:black;
-  font-size:1.3em;
+  font-size:1.1em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
