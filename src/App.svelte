@@ -26,7 +26,7 @@
 <div class="body">
 <Back/>
 </div>
-<!-- <Quote/> -->
+<Quote/>
 
 
 </main>

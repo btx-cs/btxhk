@@ -57,8 +57,8 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  /* font-size: 3.2em; */
+  line-height: 0;
 }
 
 .card {
@@ -176,9 +176,11 @@ button:focus-visible {
   filter: drop-shadow(0 0 3em #ffffff);
 }
 
-.confirm{
-  font-size: 14px;
-  animation: confirmed 4s infinite; 
+.buy{
+  animation: buy 9s infinite; 
+}
+.sell{
+  animation: sell 9s infinite; 
 }
 
 @keyframes flashinga {
@@ -205,30 +207,24 @@ button:focus-visible {
   }
 }
 
-@keyframes confirmed {
+@keyframes buy {
   0% {
-    color: #0063be;
+    color: black;
   }
   50% {
     color: green;
   }
   100% {
-    color: #0063be; 
+    color: black; 
   }
 }
 
-@keyframes notice_words {
+@keyframes sell {
   0% {
     color: red;
   }
-  25%{
-    color: #0063be;
-  }
   50% {
-    color: red;
-  }
-  75%{
-    color: #0063be;
+    color: black;
   }
   100% {
     color: red; 
