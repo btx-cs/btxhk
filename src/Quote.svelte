@@ -12,7 +12,7 @@
 <style>
 c1{
   position: fixed;
-  top: 220px;
+  top: 250px;
   left: -2%;
   width: 100%;
   height: 111em;
