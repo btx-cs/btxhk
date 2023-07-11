@@ -11,9 +11,7 @@
 </script>
 
 <main>
-<div class="body">
-<Back/>
-</div>
+
 <div class="header">
 <LOGO/>
 </div>
