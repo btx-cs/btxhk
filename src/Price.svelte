@@ -75,7 +75,7 @@
       const signal_cell = document.getElementById(`signal-${market}`);
 
       if (index_cell && newPrice !== oldPrice) {
-        index_cell.style.backgroundColor = newPrice > oldPrice ? "lightgreen" : "tomato";
+        index_cell.style.backgroundColor = newPrice > oldPrice ? "#ffa722" : "#0063be";
         setTimeout(() => {
           index_cell.style.transition = "background-color 1s";
           index_cell.style.backgroundColor = "";
@@ -83,7 +83,7 @@
       }
 
       if (oracle_cell && newOracle !== oldOracle) {
-        oracle_cell.style.backgroundColor = newOracle > oldOracle ? "lightgreen" : "tomato";
+        oracle_cell.style.backgroundColor = newOracle > oldOracle ? "#ffa722" : "#0063be";
         setTimeout(() => {
           oracle_cell.style.transition = "background-color 1s";
           oracle_cell.style.backgroundColor = "";
@@ -100,7 +100,7 @@
 
   function updateCellColor(cell, newValue, oldValue) {
     if (cell && newValue !== oldValue) {
-      cell.style.backgroundColor = newValue > oldValue ? "lightgreen" : "tomato";
+      cell.style.backgroundColor = newValue > oldValue ? "#ffa722" : "#0063be";
       setTimeout(() => {
         cell.style.transition = "background-color 1s";
         cell.style.backgroundColor = "";
@@ -137,7 +137,7 @@
 
         const updateCellColor = (cell, newValue, oldValue) => {
           if (cell && newValue !== oldValue) {
-            cell.style.backgroundColor = newValue > oldValue ? "lightgreen" : "tomato";
+            cell.style.backgroundColor = newValue > oldValue ? "#ffa722" : "#0063be";
             setTimeout(() => {
               cell.style.transition = "background-color 1s";
               cell.style.backgroundColor = "";
@@ -171,9 +171,9 @@
         const bybitBid = parseFloat(document.getElementById(`bybit-bid-${market}`).textContent);
 
         if (bybitAsk > newPrice && newOracle < newPrice && newOracle > spot) {
-          signal_cell.style.backgroundColor = "green";
+          signal_cell.style.backgroundColor = "#63be44";
         } else if (bybitBid < newPrice && newOracle > newPrice && newOracle < spot) {
-          signal_cell.style.backgroundColor = "red";
+          signal_cell.style.backgroundColor = "#ffa722";
         } else {
           signal_cell.style.backgroundColor = "black";
         }
@@ -221,6 +221,7 @@
 
 <style>
   * {
+    color: black;
     padding: 0;
     margin: 0;
     font-family: 'Nunito Sans';
@@ -232,7 +233,6 @@
   .big {
     padding: 3px;
     font-size: 1.1em;
-    color: black;
   }
 
   table {
