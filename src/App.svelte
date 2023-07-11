@@ -5,6 +5,7 @@
   import LOGOB from './assets/logo-g.svelte';
   import LOGOW from './assets/logo-w.svelte';
   import Quote from './Quote.svelte';
+  import Price from './Price.svelte';
   import Back from './Background.svelte';
 
 
@@ -27,11 +28,24 @@
 <Back/>
 </div>
 <Quote/>
+<Price/>
 
 
 </main>
 
 <style>
+
+  @keyframes colorChange {
+    0% {
+      border-color: red;
+    }
+    100% {
+      border-color: green;
+    }
+  }
+
+
+
 .header {
   position: fixed;
   top: 0;
