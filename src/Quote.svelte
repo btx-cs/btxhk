@@ -21,7 +21,7 @@ c1{
 c2{
   position: fixed;
   top: 340px;
-  left: -2%;
+  left: -1%;
   width: 100%;
   padding: 10px;
   z-index: 9999;
