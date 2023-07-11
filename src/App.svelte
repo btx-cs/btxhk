@@ -35,15 +35,6 @@
 
 <style>
 
-  @keyframes colorChange {
-    0% {
-      border-color: red;
-    }
-    100% {
-      border-color: green;
-    }
-  }
-
 
 
 .header {

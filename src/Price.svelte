@@ -186,9 +186,6 @@
   setInterval(updateDyDxClosePrices, 1000);
 </script>
 
-<html>
-  <main in:fade>
-
     {#if Object.keys(markets).length > 0}
       <table>
         <thead in:fade>
@@ -221,8 +218,6 @@
         </tbody>
       </table>
     {/if}
-  </main>
-</html>
 
 <style>
   * {
@@ -237,13 +232,8 @@
   .big {
     padding: 3px;
     font-size: 1.1em;
-    color: white;
-    opacity: 0.3;
-  }
-
-  /* thead {
     color: black;
-  } */
+  }
 
   table {
     position: fixed;
@@ -272,18 +262,4 @@
       font-size: 0.41em;
     }
   }
-
-  /* .bordered {
-    border: 3px solid;
-    animation: colorChange 0.5s infinite alternate;
-  }
-
-  @keyframes colorChange {
-    0% {
-      border-color: red;
-    }
-    100% {
-      border-color: green;
-    }
-  } */
 </style>
