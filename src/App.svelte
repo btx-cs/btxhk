@@ -39,30 +39,27 @@
 
 .header {
   position: fixed;
-  top: 0;
+  top: -60px;
   left: -2%;
   width: 100%;
-  height: 111em;
   padding: 10px;
   z-index: 9999;
   filter: drop-shadow(0 0 4em #0063be);
 }
 .headerw {
   position: fixed;
-  top: 0;
+  top: -60px;
   left: -2%;
   width: 100%;
-  height: 111em;
   padding: 10px;
   z-index: 9999;
   animation: flashinga 9s infinite;
 }
 .headerb {
   position: fixed;
-  top: 0;
+  top: -60px;
   left: -2%;
   width: 100%;
-  height: 111em;
   padding: 10px;
   z-index: 9999;
   animation: flashingb 9s infinite;

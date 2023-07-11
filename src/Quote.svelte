@@ -13,21 +13,21 @@
 <style>
 .c1{
   position: fixed;
-  top: 250px;
-  left: -2%;
+  top: 160px;
+  left: -1%;
   width: 100%;
   padding: 6px;
 }
 .c2{
   position: fixed;
-  top: 340px;
-  left: -.8%;
+  top: 230px;
+  left: -0.5%;
   width: 100%;
 }
 .c3{
   position: fixed;
-  top: 340px;
-  left: -1%;
+  top: 240px;
+  left: -0.5%;
   width: 100%;
 }
 .box{

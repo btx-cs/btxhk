@@ -237,7 +237,7 @@
 
   table {
     position: fixed;
-    top: 600px;
+    top: 410px;
     left: -1%;
     width: 100%;
     margin: auto;
