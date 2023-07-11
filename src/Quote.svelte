@@ -3,9 +3,9 @@
 </script>
 
 <main class="box">
-<c1><h3><U/>USDT-HKD 即日匯率報價：</h3></c1>
+<c1><h4><U/>USDT-HKD 即日匯率報價：</h4></c1>
 <h1><h4 class="sell">7.77</h4> <h4 class="buy">7.78</h4></h1>
-<c3><h3><h4 class="sell">💵 賣出價</h4> / <h4 class="buy">買入價 🪙</h4></h3></c3>
+<c3><h3><h4 class="sell">💵 客戶賣出價</h4> / <h4 class="buy">客戶買入價 🪙</h4></h3></c3>
 
 </main>
 
@@ -21,7 +21,7 @@ c1{
 }
 c3{
   position: fixed;
-  top: 300px;
+  top: 330px;
   left: -2%;
   width: 100%;
   height: 111em;
@@ -34,7 +34,7 @@ c3{
 }
 h1{
   color:black;
-  font-size:2.2em;
+  font-size:2.5em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -43,7 +43,7 @@ h1{
 }
 h3{
   color:black;
-  font-size:1.1em;
+  font-size:0.9em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -53,7 +53,7 @@ h3{
 h4{
   gap: 0.6em;
   color:black;
-  font-size:1.4em;
+  font-size:1.3em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
