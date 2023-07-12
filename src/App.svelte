@@ -28,7 +28,7 @@
 <Back/>
 </div>
 <Quote/>
-<Price/>
+<!-- <Price/> -->
 
 
 </main>
