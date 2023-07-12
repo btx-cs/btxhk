@@ -4,6 +4,7 @@
 
   import U from './assets/usdt.svelte';
   import B from './assets/btc.svelte';
+  import E from './assets/eth.svelte';
 
   let sell_btc;
   let buy_btc;
