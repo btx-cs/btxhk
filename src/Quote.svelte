@@ -98,7 +98,7 @@
 }
 .c7{
   position: fixed;
-  top: 350px;
+  top: 535px;
   left: -1%;
   width: 100%;
   padding: 6px;
