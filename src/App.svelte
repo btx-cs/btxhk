@@ -8,18 +8,6 @@
   import Price from './Price.svelte';
   import Back from './Background.svelte';
 
-  let interval;
-
-  onMount(() => {
-    interval = setInterval(() => {
-      // 在此处执行更新操作
-    }, 60000); // 1分钟 = 60000毫秒
-  });
-
-  // 在组件卸载时清除定时器
-  onDestroy(() => {
-    clearInterval(interval);
-  });
 </script>
 
 <main>
