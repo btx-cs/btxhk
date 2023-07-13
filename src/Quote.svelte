@@ -66,7 +66,7 @@
 }
 .c2{
   position: fixed;
-  top: 140px;
+  top: 145px;
   left: -0.5%;
   width: 100%;
 }
