@@ -39,6 +39,8 @@
   setInterval(updateValues, 5000);
 </script>
 
+
+
 <main class="box">
   <h4 class="c1"><U/>USDT-HKD 即日匯率報價：</h4>
   <h1 class="c2"><h4 class="sell">{Buy_U}</h4> / <h4 class="buy">{Sell_U}</h4></h1>
@@ -70,7 +72,7 @@
 }
 .c3{
   position: fixed;
-  top: 250px;
+  top: 245px;
   left: -0.5%;
   width: 100%;
 }
@@ -90,7 +92,7 @@
 }
 .c6{
   position: fixed;
-  top: 450px;
+  top: 440px;
   left: -0.5%;
   width: 100%;
 }
@@ -110,7 +112,7 @@
 }
 .c9{
   position: fixed;
-  top: 660px;
+  top: 645px;
   left: -0.5%;
   width: 100%;
 }
