@@ -1,6 +1,6 @@
 <script>
-  export let Sell_U = 7.80;
-  export let Buy_U = 7.74;
+  export let Sell_U = 7.788;
+  export let Buy_U = 7.726;
 
   import U from './assets/usdt.svelte';
   import B from './assets/btc.svelte';
