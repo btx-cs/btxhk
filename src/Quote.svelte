@@ -1,5 +1,5 @@
 <script>
-  export let Sell_U = 7.82;
+  export let Sell_U = 7.825;
   export let Buy_U = 7.785
 
   import U from './assets/usdt.svelte';
