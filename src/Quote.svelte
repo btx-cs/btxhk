@@ -1,6 +1,6 @@
 <script>
-  export let Sell_U = 7.82;
-  export let Buy_U = 7.77
+  export let Sell_U = 7.825;
+  export let Buy_U = 7.775
 
   import U from './assets/usdt.svelte';
   import B from './assets/btc.svelte';
@@ -43,7 +43,7 @@
   <h4 class="c1"><U/>USDT-HKD 即日匯率報價：</h4>
   <h1 class="c2"><h4 class="sell">{Buy_U}</h4> / <h4 class="buy">{Sell_U}</h4></h1>
   <h4 class="c3">（ 客戶賣出價 ） （ 客戶買入價 ）</h4>
-  <h4 class="c10">7.775 / 7.815 （大額交易價）</h4>
+  <h4 class="c10">7.78 / 7.82 （大額交易價）</h4>
 
   <h4 class="c4"><B/>BTC-HKD 即日匯率報價：</h4>
   <h1 class="c5"><h4 class="sell" on:click={()=>{BTC()}}>{buy_btc}</h4> / <h4 class="buy">{sell_btc}</h4></h1>
